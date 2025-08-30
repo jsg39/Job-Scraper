@@ -1,6 +1,6 @@
 # Job Aggregator & Summarizer
 
-A Python-based tool that scrapes job postings from multiple platforms (Indeed, JobStreet, LinkedIn), processes job descriptions with the Chutes.ai API to generate concise summaries and extract key skills, and exports the results into a clean, timestamped Excel report for easy analysis.
+A Python-based tool that scrapes job postings from multiple platforms (Indeed, JobStreet, LinkedIn), processes job descriptions with LLM API to generate concise summaries and extract key skills, and exports the results into a clean, timestamped Excel report for easy analysis.
 
 # Sample Output
 
