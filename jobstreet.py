@@ -31,7 +31,8 @@ def main():
 
     # Calculate last page
     jobs_per_page = 32 # Check HTML
-    last_page = math.ceil(total_jobs / jobs_per_page)
+    last_page = 1
+    # last_page = math.ceil(total_jobs / jobs_per_page)
     print(f"Last Page: {last_page}")
 
     for page in range(1, last_page + 1):
@@ -94,9 +95,10 @@ def main():
     timestamp = now.strftime("%H%M%S")
 
     title_filename = job_title.strip().replace(" ", "_")
-    excel_filename = f"{title_filename}_jobstreet_{today}_{timestamp}.xlsx"
-    df.to_excel(excel_filename, index=False)
-    print(f"Excel file: {excel_filename}")
+    filename = f"{title_filename}_jobstreet_{today}_{timestamp}"
+    # df.to_excel(filename, index=False)
+    df.to_csv(f"data/csv/{filename}", index=False)
+    print(f"File name: {filename}")
 
 if __name__ == '__main__':
     main()
