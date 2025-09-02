@@ -1,7 +1,9 @@
-# Job Aggregator & Summarizer
+# Job Posting Scraper with RAG Querying 
 
-A Python-based tool that scrapes job postings from multiple platforms (Indeed, JobStreet, LinkedIn), processes job descriptions with the Chutes.ai API to generate concise summaries and extract key skills, and exports the results into a clean, timestamped Excel report for easy analysis.
+A Python-based tool that scrapes job postings from Jobstreet (with planned support for Indeed and LinkedIn), structures the results into a clean CSV/Excel dataset, and standardizes fields such as job title, company, location, work arrangement, and job details.
 
-# Sample Output
+The project also includes a Retrieval-Augmented Generation (RAG) implementation with LangChain, currently under development, to enable natural language queries over job postings (e.g., “Find 5 jobs posted in the past week requiring 0–1 years of Python experience”).
 
-<img width="1920" height="791" alt="image" src="https://github.com/user-attachments/assets/ac1fca85-23a0-48cc-9da1-6f0a951cd096" />
+## Sample Output
+
+![alt text](image.png)

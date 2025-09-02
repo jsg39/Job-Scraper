@@ -4,20 +4,17 @@ import pandas as pd
 import math
 from datetime import datetime, timedelta
 import re
+import time
 
 def main():
     root_url = "https://ph.jobstreet.com"
-    job_title = "Python"
+    job_title = "Python-" # Python-
     location = "Philippines"
 
     rows = []
 
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-    }
-
     # First page
-    base_url = f"{root_url}/{job_title}-jobs/in-{location.replace(' ', '-')}"
+    base_url = f"{root_url}/{job_title}jobs/in-{location.replace(' ', '-')}"
     url = base_url + "?page=1"
     response = requests.get(url, impersonate="chrome")
     soup = BeautifulSoup(response.text, 'lxml')
@@ -31,8 +28,7 @@ def main():
 
     # Calculate last page
     jobs_per_page = 32 # Check HTML
-    last_page = 1
-    # last_page = math.ceil(total_jobs / jobs_per_page)
+    last_page = math.ceil(total_jobs / jobs_per_page)
     print(f"Last Page: {last_page}")
 
     for page in range(1, last_page + 1):
@@ -79,13 +75,13 @@ def main():
 
             # Data Structuring
             rows.append({
-                "Date Listed": date,
-                "Job Title": title,
-                "Company": company,
-                "Location": locations,
-                "Work Arrangement": work_arrangement,
-                "Link": job_details_url,
-                "Job Details": job_details
+                "date_listed": date,
+                "job_title": title,
+                "company": company,
+                "location": locations,
+                "work_arrangement": work_arrangement,
+                "link": job_details_url,
+                "job_details": job_details
             })
 
     df = pd.DataFrame(rows)
@@ -101,4 +97,7 @@ def main():
     print(f"File name: {filename}")
 
 if __name__ == '__main__':
+    start = time.perf_counter()
     main()
+    end = time.perf_counter()
+    print(f"Execution time: {end - start:.6f} seconds")
