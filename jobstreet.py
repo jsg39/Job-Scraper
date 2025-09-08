@@ -5,13 +5,18 @@ import math
 from datetime import datetime, timedelta
 import re
 import time
+import os
 
 def main():
     root_url = "https://ph.jobstreet.com"
     job_title = "Python-" # Python-
     location = "Philippines"
 
-    rows = []
+    # Prepare filename
+    now = datetime.now()
+    today = now.strftime("%Y-%m-%d")
+    title_filename = job_title.strip().replace(" ", "_")
+    filename = f"data/csv/{title_filename}_jobstreet_{today}.csv"
 
     # First page
     base_url = f"{root_url}/{job_title}jobs/in-{location.replace(' ', '-')}"
@@ -28,7 +33,8 @@ def main():
 
     # Calculate last page
     jobs_per_page = 32 # Check HTML
-    last_page = math.ceil(total_jobs / jobs_per_page)
+    last_page = 2
+    # last_page = math.ceil(total_jobs / jobs_per_page)
     print(f"Last Page: {last_page}")
 
     for page in range(1, last_page + 1):
@@ -36,12 +42,13 @@ def main():
         print(f"Scraping: {page_url}")
 
         # Fetch HTML
-        response = requests.get(url, impersonate="chrome")
+        response = requests.get(page_url, impersonate="chrome")
         soup = BeautifulSoup(response.text, 'lxml')
 
         # Find all job cards
         job_cards = soup.find_all("article", {"data-card-type": "JobCard"})
 
+        rows = []
         # Parse inside each card
         for card in job_cards:
             title_tag = card.find("a", {"data-automation": "jobTitle"})
@@ -84,17 +91,24 @@ def main():
                 "job_details": job_details
             })
 
-    df = pd.DataFrame(rows)
+        # Create a DataFrame for the current page
+        df_page = pd.DataFrame(rows)
+        if df_page.empty:
+            print(f"No jobs found on page {page}")
+            continue
 
-    now = datetime.now()
-    today = now.strftime("%Y-%m-%d")
-    timestamp = now.strftime("%H%M%S")
-
-    title_filename = job_title.strip().replace(" ", "_")
-    filename = f"{title_filename}_jobstreet_{today}_{timestamp}"
-    # df.to_excel(filename, index=False)
-    df.to_csv(f"data/csv/{filename}", index=False)
-    print(f"File name: {filename}")
+        # If file exists, load existing data then combine and drop duplicates; otherwise use new data.
+        if os.path.exists(filename):
+            df_existing = pd.read_csv(filename, encoding="utf-8-sig")
+            df_combined = pd.concat([df_existing, df_page], ignore_index=True)
+            # Assuming each job card is unique by its link
+            df_combined = df_combined.drop_duplicates(subset=["link"])
+        else:
+            df_combined = df_page.drop_duplicates(subset=["link"])
+        
+        # Write the deduplicated DataFrame back to CSV
+        df_combined.to_csv(filename, index=False, encoding="utf-8-sig")
+        print(f"Page {page} processed and saved to {filename}")
 
 if __name__ == '__main__':
     start = time.perf_counter()
