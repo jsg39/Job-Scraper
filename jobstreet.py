@@ -7,9 +7,14 @@ import re
 import time
 import os
 
+def clean_text(text):
+    if not isinstance(text, str):
+        return text
+    return text.replace("\n", " ").replace("\r", " ").strip()
+
 def main():
     root_url = "https://ph.jobstreet.com"
-    job_title = "Python-" # Python-
+    job_title = "" # 
     location = "Philippines"
 
     # Prepare filename
@@ -33,8 +38,7 @@ def main():
 
     # Calculate last page
     jobs_per_page = 32 # Check HTML
-    last_page = 2
-    # last_page = math.ceil(total_jobs / jobs_per_page)
+    last_page = math.ceil(total_jobs / jobs_per_page)
     print(f"Last Page: {last_page}")
 
     for page in range(1, last_page + 1):
@@ -82,13 +86,13 @@ def main():
 
             # Data Structuring
             rows.append({
-                "date_listed": date,
-                "job_title": title,
-                "company": company,
-                "location": locations,
-                "work_arrangement": work_arrangement,
-                "link": job_details_url,
-                "job_details": job_details
+                "date_listed": clean_text(date),
+                "job_title": clean_text(title),
+                "company": clean_text(company),
+                "location": clean_text(locations),
+                "work_arrangement": clean_text(work_arrangement),
+                "link": clean_text(job_details_url),
+                "job_details": clean_text(job_details)
             })
 
         # Create a DataFrame for the current page
