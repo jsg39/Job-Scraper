@@ -1,0 +1,244 @@
+RawIndustry,CleanIndustry
+null,null
+Customer Service,Customer Service
+Professional Services,Professional Services
+Information Technology,Information Technology
+Electrical Engineering,Electrical Engineering
+FMCG,FMCG
+Finance,Finance
+Banking,Finance
+Sales,Sales
+Power Backup,Power Backup
+Government,Government
+Healthcare,Healthcare
+Call Center,Call Center
+BPO,BPO/Outsourcing
+eCommerce,Retail/E-commerce
+Retail,Retail/E-commerce
+Hospitality,Hospitality
+Accounting,Finance
+Publishing,Publishing
+Human Resources,Human Resources
+Financial Technology,Finance
+Logistics,Logistics
+Recruitment,Recruitment
+"Testing, Inspection, and Certification Services","Testing, Inspection, and Certification Services"
+Law,Law
+Engineering,Engineering
+Manufacturing,Manufacturing
+Intellectual Property,Intellectual Property
+Telecommunications,Telecommunications
+Customer Experience Solutions,Customer Experience Solutions
+Legal/Compliance,Legal/Compliance
+Consumer Goods,Consumer Goods
+Restaurant,Restaurant
+BPO/Customer Service,BPO/Outsourcing
+Health Insurance,Health Insurance
+Facilities Management,Facilities Management
+Legal,Legal
+Financial Services,Finance
+Insurance,Finance
+Finance/Banking,Finance
+Marketing,Marketing
+Customer Experience (CX),Customer Experience (CX)
+Real Estate Services,Real Estate Services
+Pharmaceutical,Pharmaceutical
+Supply Chain,Supply Chain
+Business Process Outsourcing,BPO/Outsourcing
+Digital Infrastructure,Information Technology
+Food Delivery Service,Food Delivery Service
+Beverage,Beverage
+Education,Education
+Travel,Travel
+Cosmetics,Cosmetics
+Pharmacy Retail,Pharmacy Retail
+Gaming,Gaming
+Assurance,Finance
+Real Estate,Real Estate
+Luxury Design and Furniture,Luxury Design and Furniture
+Property Development and Property Management,Property Development and Property Management
+Warehousing/Logistics,Warehousing/Logistics
+Finance/Mortgage Broking,Finance
+Design,Design
+Advertising,Advertising
+Client Services,Client Services
+Construction,Construction
+Administrative,Administrative
+Education/Online Teaching,Education/Online Teaching
+Import/Export,Import/Export
+iGaming,iGaming
+Technology/Electronics,Information Technology
+Business Process Outsourcing (BPO),BPO/Outsourcing
+Administrative/Office Support,Administrative/Office Support
+Hospitality/Food Service,Hospitality/Food Service
+Sales / Business Development,Sales / Business Development
+Compliance/Regulatory,Compliance/Regulatory
+Chemical Engineering,Chemical Engineering
+Printing/Publishing,Printing/Publishing
+Commercial Banking,Commercial Banking
+Quality Control,Quality Control
+Sales & Marketing,Sales & Marketing
+Supply Chain & Logistics,Supply Chain & Logistics
+Real Estate/Property Management,Real Estate/Property Management
+Human Resources/Administration,Human Resources/Administration
+Business Process Optimization,Business Process Optimization
+Food and Beverage,Food and Beverage
+Beauty & Wellness,Beauty & Wellness
+Logistics and Operations,Logistics and Operations
+"F&B, BPO, retail, or healthcare","F&B, BPO, retail, or healthcare"
+Beauty and Wellness,Beauty and Wellness
+Franchise Development,Franchise Development
+Agriculture,Agriculture
+E-commerce,Retail/E-commerce
+Customer Support,Customer Support
+Media and Broadcasting,Media and Broadcasting
+Administration,Administration
+Architecture,Architecture
+Logistics/Shipping,Logistics/Shipping
+Business Process Outsourcing/Shared Services,BPO/Outsourcing
+Retail/Logistics,Retail/E-commerce
+Customer Service/Workforce Management,Customer Service/Workforce Management
+Graphic Design,Graphic Design
+E-Commerce,Retail/E-commerce
+Digital Marketing/E-commerce,Retail/E-commerce
+Semiconductor,Information Technology
+BPO/Content Moderation,BPO/Outsourcing
+Accounting/Finance,Finance
+Insurance/Employee Benefits,Finance
+Supply Chain/Logistics,Supply Chain/Logistics
+Business Administration,Business Administration
+Warehouse/Logistics,Warehouse/Logistics
+Logistics/Freight Forwarding,Logistics/Freight Forwarding
+Fashion,Fashion
+Transportation & Logistics,Transportation & Logistics
+Accounting and Finance,Finance
+Food Service,Food Service
+Retail/Wellness,Retail/E-commerce
+Hospital & Health Care,Hospital & Health Care
+Electronics,Information Technology
+Community-based initiatives,Community-based initiatives
+Banking and Finance,Finance
+Industrial Technology,Industrial Technology
+Pharmacy,Pharmacy
+Video Game Quality Assurance,Video Game Quality Assurance
+Information Technology/Data Processing,Information Technology
+Chemical,Chemical
+HMO,HMO
+Interior Design,Interior Design
+Air Conditioning and Refrigeration,Air Conditioning and Refrigeration
+Administrative Support,Administrative Support
+Facilities Maintenance,Facilities Maintenance
+Hospitality/Tourism,Hospitality/Tourism
+Wind Energy,Wind Energy
+Automotive,Automotive
+Outsourcing,BPO/Outsourcing
+Banking/Finance,Finance
+Pharmaceuticals,Pharmaceuticals
+Food Delivery,Food Delivery
+Procurement,Procurement
+Air Travel,Air Travel
+Business Process Management,Business Process Management
+Government Relations,Government Relations
+Property Management,Property Management
+Medical Devices,Medical Devices
+Food & Beverage,Food & Beverage
+Marine Supply,Marine Supply
+Business,Business
+Warehouse,Warehouse
+Solar,Solar
+Fitness,Fitness
+Legal Services/Conveyancing,Legal Services/Conveyancing
+Facility Management,Facility Management
+Non-profit,Non-profit
+Public Relations,Public Relations
+Finance/Accountancy/Banking,Finance
+Marketing/Retail,Marketing/Retail
+Veterinary Products Manufacturing,Veterinary Products Manufacturing
+Warehousing,Warehousing
+Various,Various
+Media,Media
+Airline,Airline
+Food Safety,Food Safety
+Events Management,Events Management
+Outsourcing/BPO,BPO/Outsourcing
+FMCG/CPG,FMCG/CPG
+Business Administration/Office Management,Business Administration/Office Management
+Office Administration,Office Administration
+Transportation,Transportation
+Surveying,Surveying
+Marketing/Healthcare Recruitment,Marketing/Healthcare Recruitment
+Oil and Gas,Oil and Gas
+Customer Service/Call Center,Customer Service/Call Center
+Water Treatment,Water Treatment
+Food Manufacturing,Food Manufacturing
+Global Shipping/Logistics,Global Shipping/Logistics
+Food Service/Restaurant,Food Service/Restaurant
+Legal Services,Legal Services
+Manpower Provider,Manpower Provider
+"Retail, Lifestyle, or Defense",Retail/E-commerce
+Administrative/Office Operations,Administrative/Office Operations
+Hair and Beauty,Hair and Beauty
+Healthcare BPO/Shared Service Centers,BPO/Outsourcing
+Finance and Accounting,Finance
+Industrial Engineering,Industrial Engineering
+Healthcare BPO,BPO/Outsourcing
+Solar PV,Solar PV
+logistics and supply chain,logistics and supply chain
+Printing,Printing
+Accounting/Professional Services,Finance
+Supply Chain Management,Supply Chain Management
+Food/Beverage,Food/Beverage
+Animal Health,Animal Health
+Hospitality / Airport Services,Hospitality / Airport Services
+Telecommunications/Project Management,Telecommunications/Project Management
+Sales/Insurance,Sales/Insurance
+Fintech,Fintech
+Transportation/Public Service,Transportation/Public Service
+Medical,Medical
+Steel Manufacturing,Steel Manufacturing
+Mechanical Engineering/Construction,Mechanical Engineering/Construction
+Restaurant/Hospitality,Restaurant/Hospitality
+Digital Marketing,Digital Marketing
+BPO healthcare,BPO/Outsourcing
+Travel and Leisure,Travel and Leisure
+Civil Engineering,Civil Engineering
+Advertising,Advertising
+Creative Design/Advertising,Creative Design/Advertising
+Consumer Goods / FMCG,Consumer Goods / FMCG
+E-commerce/Online Grocery Delivery,Retail/E-commerce
+Microfinance,Finance
+Construction Materials,Construction Materials
+Industrial Automation,Industrial Automation
+Wines & Spirits,Wines & Spirits
+Recruitment and Staffing,Recruitment and Staffing
+Food,Food
+Education Technology (EdTech),Education Technology (EdTech)
+Manufacturing/Quality Control,Manufacturing/Quality Control
+Insurance/Financial Services,Finance
+Marketing/Real Estate,Marketing/Real Estate
+Restaurant and Hotel,Restaurant and Hotel
+Logistics/Warehousing,Logistics/Warehousing
+Consultancy Services,Consultancy Services
+Asset Management,Asset Management
+Electronic Manufacturing,Information Technology
+BPO/Call Center,BPO/Outsourcing
+Customer Service/Contact Center,Customer Service/Contact Center
+Healthcare/Finance,Healthcare/Finance
+Hospitality/Food & Beverage,Hospitality/Food & Beverage
+Commercial Interior Design,Commercial Interior Design
+Business Administration/Management,Business Administration/Management
+Engineering/Technology,Information Technology
+Food Service / Hospitality,Food Service / Hospitality
+Human Resources/Staffing,Human Resources/Staffing
+Retail/Restaurant,Retail/E-commerce
+Security,Security
+Healthcare/Medical,Healthcare/Medical
+FinTech,Finance
+Motion Pictures and Film,Motion Pictures and Film
+Food and Agribusiness,Food and Agribusiness
+Education/Government,Education/Government
+Administrative / Clerical,Administrative / Clerical
+Market Intelligence,Market Intelligence
+Pension Outsourcing,Pension Outsourcing
+Tourism,Tourism
+Electrical and Electronic Manufacturing,Electrical and Electronic Manufacturing

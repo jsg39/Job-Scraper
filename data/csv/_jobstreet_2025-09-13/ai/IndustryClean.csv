@@ -1,0 +1,244 @@
+RawIndustry,Industry
+null,Other / Unknown
+Customer Service,Customer Service
+Professional Services,Consulting & Professional Services
+Information Technology,Information Technology
+Electrical Engineering,Engineering & Manufacturing
+FMCG,Consumer Goods & FMCG
+Finance,Finance
+Banking,Finance
+Sales,Sales & Marketing
+Power Backup,Energy & Utilities
+Government,Government & Public Services
+Healthcare,Healthcare & Pharma
+Call Center,Customer Service
+BPO,BPO/Outsourcing
+eCommerce,Retail & E-commerce
+Retail,Retail & E-commerce
+Hospitality,Hospitality & Travel
+Accounting,Finance
+Publishing,Media & Entertainment
+Human Resources,Human Resources
+Financial Technology,Finance
+Logistics,Logistics & Supply Chain
+Recruitment,Human Resources
+"Testing, Inspection, and Certification Services",Engineering & Manufacturing
+Law,Legal & Compliance
+Engineering,Engineering & Manufacturing
+Manufacturing,Engineering & Manufacturing
+Intellectual Property,Legal & Compliance
+Telecommunications,Information Technology
+Customer Experience Solutions,Customer Service
+Legal/Compliance,Legal & Compliance
+Consumer Goods,Consumer Goods & FMCG
+Restaurant,Hospitality & Travel
+BPO/Customer Service,BPO/Outsourcing
+Health Insurance,Healthcare & Pharma
+Facilities Management,Administration & Support
+Legal,Legal & Compliance
+Financial Services,Finance
+Insurance,Finance
+Finance/Banking,Finance
+Marketing,Sales & Marketing
+Customer Experience (CX),Customer Service
+Real Estate Services,Real Estate
+Pharmaceutical,Healthcare & Pharma
+Supply Chain,Logistics & Supply Chain
+Business Process Outsourcing,BPO/Outsourcing
+Digital Infrastructure,Information Technology
+Food Delivery Service,Consumer Goods & FMCG
+Beverage,Consumer Goods & FMCG
+Education,Education
+Travel,Hospitality & Travel
+Cosmetics,Consumer Goods & FMCG
+Pharmacy Retail,Healthcare & Pharma
+Gaming,Media & Entertainment
+Assurance,Finance
+Real Estate,Real Estate
+Luxury Design and Furniture,Design & Creative
+Property Development and Property Management,Real Estate
+Warehousing/Logistics,Logistics & Supply Chain
+Finance/Mortgage Broking,Finance
+Design,Design & Creative
+Advertising,Media & Entertainment
+Client Services,Consulting & Professional Services
+Construction,Engineering & Manufacturing
+Administrative,Administration & Support
+Education/Online Teaching,Education
+Import/Export,Trade / Import-Export
+iGaming,Media & Entertainment
+Technology/Electronics,Information Technology
+Business Process Outsourcing (BPO),BPO/Outsourcing
+Administrative/Office Support,Administration & Support
+Hospitality/Food Service,Hospitality & Travel
+Sales / Business Development,Sales & Marketing
+Compliance/Regulatory,Legal & Compliance
+Chemical Engineering,Engineering & Manufacturing
+Printing/Publishing,Media & Entertainment
+Commercial Banking,Finance
+Quality Control,Engineering & Manufacturing
+Sales & Marketing,Sales & Marketing
+Supply Chain & Logistics,Logistics & Supply Chain
+Real Estate/Property Management,Real Estate
+Human Resources/Administration,Human Resources
+Business Process Optimization,Consulting & Professional Services
+Food and Beverage,Consumer Goods & FMCG
+Beauty & Wellness,Consumer Goods & FMCG
+Logistics and Operations,Logistics & Supply Chain
+"F&B, BPO, retail, or healthcare",Other / Unknown
+Beauty and Wellness,Consumer Goods & FMCG
+Franchise Development,Consulting & Professional Services
+Agriculture,Agriculture
+E-commerce,Retail & E-commerce
+Customer Support,Customer Service
+Media and Broadcasting,Media & Entertainment
+Administration,Administration & Support
+Architecture,Design & Creative
+Logistics/Shipping,Logistics & Supply Chain
+Business Process Outsourcing/Shared Services,BPO/Outsourcing
+Retail/Logistics,Retail & E-commerce
+Customer Service/Workforce Management,Customer Service
+Graphic Design,Design & Creative
+E-Commerce,Retail & E-commerce
+Digital Marketing/E-commerce,Information Technology
+Semiconductor,Engineering & Manufacturing
+BPO/Content Moderation,BPO/Outsourcing
+Accounting/Finance,Finance
+Insurance/Employee Benefits,Finance
+Supply Chain/Logistics,Logistics & Supply Chain
+Business Administration,Consulting & Professional Services
+Warehouse/Logistics,Logistics & Supply Chain
+Logistics/Freight Forwarding,Logistics & Supply Chain
+Fashion,Retail & E-commerce
+Transportation & Logistics,Logistics & Supply Chain
+Accounting and Finance,Finance
+Food Service,Consumer Goods & FMCG
+Retail/Wellness,Retail & E-commerce
+Hospital & Health Care,Healthcare & Pharma
+Electronics,Information Technology
+Community-based initiatives,Non-profit / Community
+Banking and Finance,Finance
+Industrial Technology,Engineering & Manufacturing
+Pharmacy,Healthcare & Pharma
+Video Game Quality Assurance,Media & Entertainment
+Information Technology/Data Processing,Information Technology
+Chemical,Energy & Utilities
+HMO,Healthcare & Pharma
+Interior Design,Design & Creative
+Air Conditioning and Refrigeration,Engineering & Manufacturing
+Administrative Support,Administration & Support
+Facilities Maintenance,Administration & Support
+Hospitality/Tourism,Hospitality & Travel
+Wind Energy,Energy & Utilities
+Automotive,Engineering & Manufacturing
+Outsourcing,BPO/Outsourcing
+Banking/Finance,Finance
+Pharmaceuticals,Healthcare & Pharma
+Food Delivery,Consumer Goods & FMCG
+Procurement,Logistics & Supply Chain
+Air Travel,Hospitality & Travel
+Business Process Management,BPO/Outsourcing
+Government Relations,Government & Public Services
+Property Management,Real Estate
+Medical Devices,Healthcare & Pharma
+Food & Beverage,Consumer Goods & FMCG
+Marine Supply,Logistics & Supply Chain
+Business,Administration & Support
+Warehouse,Logistics & Supply Chain
+Solar,Energy & Utilities
+Fitness,Fitness & Wellness
+Legal Services/Conveyancing,Legal & Compliance
+Facility Management,Administration & Support
+Non-profit,Non-profit / Community
+Public Relations,Media & Entertainment
+Finance/Accountancy/Banking,Finance
+Marketing/Retail,Sales & Marketing
+Veterinary Products Manufacturing,Healthcare & Pharma
+Warehousing,Logistics & Supply Chain
+Various,Other / Unknown
+Media,Media & Entertainment
+Airline,Hospitality & Travel
+Food Safety,Consumer Goods & FMCG
+Events Management,Hospitality & Travel
+Outsourcing/BPO,BPO/Outsourcing
+FMCG/CPG,Consumer Goods & FMCG
+Business Administration/Office Management,Administration & Support
+Office Administration,Administration & Support
+Transportation,Logistics & Supply Chain
+Surveying,Engineering & Manufacturing
+Marketing/Healthcare Recruitment,Sales & Marketing
+Oil and Gas,Energy & Utilities
+Customer Service/Call Center,Customer Service
+Water Treatment,Engineering & Manufacturing
+Food Manufacturing,Consumer Goods & FMCG
+Global Shipping/Logistics,Logistics & Supply Chain
+Food Service/Restaurant,Hospitality & Travel
+Legal Services,Legal & Compliance
+Manpower Provider,Human Resources
+"Retail, Lifestyle, or Defense",Retail & E-commerce
+Administrative/Office Operations,Administration & Support
+Hair and Beauty,Consumer Goods & FMCG
+Healthcare BPO/Shared Service Centers,BPO/Outsourcing
+Finance and Accounting,Finance
+Industrial Engineering,Engineering & Manufacturing
+Healthcare BPO,BPO/Outsourcing
+Solar PV,Energy & Utilities
+logistics and supply chain,Logistics & Supply Chain
+Printing,Media & Entertainment
+Accounting/Professional Services,Finance
+Supply Chain Management,Logistics & Supply Chain
+Food/Beverage,Consumer Goods & FMCG
+Animal Health,Healthcare & Pharma
+Hospitality / Airport Services,Hospitality & Travel
+Telecommunications/Project Management,Information Technology
+Sales/Insurance,Sales & Marketing
+Fintech,Finance
+Transportation/Public Service,Logistics & Supply Chain
+Medical,Healthcare & Pharma
+Steel Manufacturing,Engineering & Manufacturing
+Mechanical Engineering/Construction,Engineering & Manufacturing
+Restaurant/Hospitality,Hospitality & Travel
+Digital Marketing,Information Technology
+BPO healthcare,BPO/Outsourcing
+Travel and Leisure,Hospitality & Travel
+Civil Engineering,Engineering & Manufacturing
+Advertising,Media & Entertainment
+Creative Design/Advertising,Design & Creative
+Consumer Goods / FMCG,Consumer Goods & FMCG
+E-commerce/Online Grocery Delivery,Retail & E-commerce
+Microfinance,Finance
+Construction Materials,Engineering & Manufacturing
+Industrial Automation,Engineering & Manufacturing
+Wines & Spirits,Consumer Goods & FMCG
+Recruitment and Staffing,Human Resources
+Food,Consumer Goods & FMCG
+Education Technology (EdTech),Education
+Manufacturing/Quality Control,Engineering & Manufacturing
+Insurance/Financial Services,Finance
+Marketing/Real Estate,Sales & Marketing
+Restaurant and Hotel,Hospitality & Travel
+Logistics/Warehousing,Logistics & Supply Chain
+Consultancy Services,Consulting & Professional Services
+Asset Management,Finance
+Electronic Manufacturing,Engineering & Manufacturing
+BPO/Call Center,BPO/Outsourcing
+Customer Service/Contact Center,Customer Service
+Healthcare/Finance,Healthcare & Pharma
+Hospitality/Food & Beverage,Hospitality & Travel
+Commercial Interior Design,Design & Creative
+Business Administration/Management,Consulting & Professional Services
+Engineering/Technology,Engineering & Manufacturing
+Food Service / Hospitality,Hospitality & Travel
+Human Resources/Staffing,Human Resources
+Retail/Restaurant,Retail & E-commerce
+Security,Security
+Healthcare/Medical,Healthcare & Pharma
+FinTech,Finance
+Motion Pictures and Film,Media & Entertainment
+Food and Agribusiness,Agriculture
+Education/Government,Education
+Administrative / Clerical,Administration & Support
+Market Intelligence,Consulting & Professional Services
+Pension Outsourcing,Finance
+Tourism,Hospitality & Travel
+Electrical and Electronic Manufacturing,Engineering & Manufacturing

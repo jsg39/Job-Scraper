@@ -2,7 +2,7 @@ from lxml import etree
 from datetime import datetime
 import pandas as pd
 from seleniumbase import SB
-from ai_summarize import summarize
+from ai_summarize_openrouter import summarize
 import asyncio
 
 def get_url (title, location, last_listed, work_type, experience):
@@ -14,7 +14,7 @@ def main():
     title = 'Python'
     location = 'Philippines'
     tpr = 'r2592000' # Last listed Month: r2592000, Week: r604800, Day: r86400
-    work_type = '3%2C3' # Hybrid + Remote
+    work_type = '3%2C2' # Hybrid + Remote
     experience = '2' # Entry level
 
     url = get_url (title, location, tpr, work_type, experience)

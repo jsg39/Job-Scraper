@@ -125,7 +125,7 @@ def main():
         )
     else:
         print(f"🆕 Creating new collection: {COLLECTION_NAME}")
-        docs = build_documents_from_csv("data/csv/Python_jobstreet_2025-09-01_080453.csv")
+        docs = build_documents_from_csv("data/csv/Python-_jobstreet_2025-09-10.csv")
         qdrant = Qdrant.from_documents(
             docs,
             embeddings,
@@ -133,6 +133,17 @@ def main():
             api_key=QDRANT_API_KEY,
             collection_name=COLLECTION_NAME
         )
+        
+        # Create indexes for filterable metadata fields
+        for field in [
+            "job_title", "company", "location", "work_arrangement",
+            "date_listed", "link", "job_details"
+        ]:
+            client.create_payload_index(
+                collection_name=COLLECTION_NAME,
+                field_name=field,
+                field_type="keyword"
+            )
 
     # LLM
     llm = ChatOpenAI(

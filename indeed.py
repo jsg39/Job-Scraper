@@ -2,20 +2,36 @@ from bs4 import BeautifulSoup
 from seleniumbase import SB
 import pandas as pd
 from datetime import datetime
-from ai_summarize import summarize
+from ai_summarize_openrouter import summarize
 import asyncio
 
-def get_url (root_url, job_title, location, job_type):
-    template = '{}/jobs?q={}&l={}&sort=date&sc={}'
-    url = template.format(root_url,job_title, location, job_type)
+def get_url (root_url, job_title, location, last_listed, job_type):
+    template = '{}/jobs?q={}&l={}&fromage={}&sort=date&sc={}'
+    url = template.format(root_url,job_title, location, last_listed, job_type)
     return url
+
+def bypass_cloudflare(sb, url):
+    """Bypass Cloudflare protection using SeleniumBase."""
+    while True:
+        sb.open(url)
+        sb.uc_gui_click_captcha()
+        sb.sleep(10)
+
+        try:
+            sb.assert_text("Find jobs", "button.yosegi-InlineWhatWhere-primaryButton[type='submit']")
+            print("Bypassed Cloudflare")
+            break
+        except Exception:
+            print("Bypassing Cloudflare...")
+            continue
 
 def main():
     root_url = "https://ph.indeed.com"
-    title = 'python'
-    location = 'philippines'
-    job_type = '0kf%3Aattr%287EQCZ%29%3B' # Fresh Grad
-    # job_type = '' # Any
+    title = 'Python'
+    location = 'Philippines'
+    last_listed = '7'
+    # job_type = '0kf%3Aattr%287EQCZ%29%3B' # Fresh Grad
+    job_type = '' # Any
 
     now = datetime.now()
     today = now.strftime("%Y-%m-%d")
@@ -24,23 +40,11 @@ def main():
     df = pd.DataFrame()
 
     #  Initial url
-    url = get_url(root_url, title, location, job_type)
+    url = get_url(root_url, title, location, last_listed, job_type)
 
     with SB(uc_cdp=True, incognito=True) as sb:
         while True:
-            """Bypass cloudflare"""
-            while True:
-                sb.open(url)
-                sb.uc_gui_click_captcha()
-                sb.sleep(10)
-
-                try:
-                    sb.assert_text("Find jobs", "button.yosegi-InlineWhatWhere-primaryButton[type='submit']")
-                    print("Bypassed Cloudflare")
-                    break
-                except Exception:
-                    print("Bypassing Cloudflare...")
-                    continue 
+            bypass_cloudflare(sb, url)
 
             raw_html = sb.get_page_source()
             soup = BeautifulSoup(raw_html, 'lxml')
